@@ -1,6 +1,9 @@
 # openshift-sample-app
 這個 App 為 **Angular**(前端網頁) 及 **NodeJS**(後端API) 組成的應用程式，用來展示讀取 configMap 及 secret 的環境變數。
 
+## 前置條件
+請先安裝 [NodeJS](https://nodejs.org/zh-tw/download/package-manager/) 及 npm (Node.js 在 0.6.3 版本開始內建 npm)
+
 ---
 
 使用方法如下：
