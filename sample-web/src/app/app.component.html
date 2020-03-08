@@ -1,0 +1,22 @@
+
+<h1>範例 App</h1>
+
+<button (click)="showConfigMapResponse()">讀取後端資訊 (ConfigMap)</button>
+<p *ngIf="responseConfigmapResult">
+  ConfigMap 讀取結果：{{responseConfigmapResult}}
+</p>
+<p *ngIf="!responseConfigmapResult">
+  尚無 ConfigMap 讀取結果
+</p>
+
+<hr />
+
+<button (click)="showSecretResponse()">讀取後端資訊 (Secret)</button>
+<p *ngIf="responseSecretResult">
+  Secret 讀取結果：{{responseSecretResult}}
+</p>
+<p *ngIf="!responseSecretResult">
+  尚無 Secret 讀取結果
+</p>
+
+<router-outlet></router-outlet>
